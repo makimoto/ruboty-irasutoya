@@ -8,7 +8,7 @@ module Ruboty
       SEARCH_ENDPOINT = "http://www.irasutoya.com/search?q="
 
       on(
-        /irasuto(?:ya)?(?:\s+(.*))?/,
+        /irasuto(?:ya)?(?:\s+(.*))/,
         name: 'irasutoya',
         description: 'show irasuto from irasutoya'
       )
